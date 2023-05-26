@@ -68,6 +68,32 @@ p {
 
 
 /*Barra navegación*/
+.navbar-expand-lg {
+    background-color: var(--secundario);
+}
+
+.container-fluid {
+    font-family: 'Viner Hand ITC', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-fluid ul li {
+    display: inline-flexbox;
+    justify-content: space-around;
+}
+
+.navbar-expand-lg a {
+    color: var(--blanco);
+}
+
+.navbar-expand-lg a:hover {
+
+    background-color: var(--blanco);
+    /* color: var(--primario); */
+}
+
 .nav-bg {
     background-color: var(--secundario);
 }
@@ -78,13 +104,6 @@ p {
     /* list-style: none; */
     font-family: 'Viner Hand ITC', sans-serif;
 
-}
-
-@media (mid-width 780px) {
-    .nav-principal {
-        flex-direction: row;
-        justify-content: space-around;
-    }
 }
 
 .nav-principal ul li {
